@@ -3,7 +3,7 @@ import { green, blueGrey} from '@material-ui/core/colors' ;
 import List from "../user/List";
 import axios from "axios";
 import {useState} from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 const useStyles= makeStyles({ 
     headingColor: {                 //yo headingcolor ko satta j naam diye pani huncha. it's userdefined
@@ -19,7 +19,7 @@ const useStyles= makeStyles({
 
 const Home = () => {
     const classes = useStyles();        //yo tala box ma use garna ko lagi define garnu parcha. classes ko satta aru kehi lekhda ni huncha
-    const navigate = useNavigate();
+    //const navigate = useNavigate();
     const [user, setUser]= useState(    //useState bhanne function le chai user bhanne variable ma setUser function return garch or sth like that
         {
             userId: "" ,
