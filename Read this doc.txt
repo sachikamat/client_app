@@ -1,0 +1,2 @@
+1. Run db.json file on port 3333
+	json-server --watch db.json --port 3333
